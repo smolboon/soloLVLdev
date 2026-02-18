@@ -770,7 +770,7 @@ Modern theme extracted from website for testing.
       logger.log(`Crawling website for theme: ${params.url}`);
 
       const DYAD_ENGINE_URL =
-        process.env.DYAD_ENGINE_URL ?? "https://engine.dyad.sh/v1";
+        process.env.SOLOLVLDEV_ENGINE_URL ?? "https://engine.soloLVLdev.ai/v1";
 
       // Create AbortController for timeout
       const controller = new AbortController();

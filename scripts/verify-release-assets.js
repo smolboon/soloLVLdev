@@ -81,13 +81,13 @@ async function verifyReleaseAssets() {
 
     // Define expected assets with platform-specific version handling
     const expectedAssets = [
-      `dyad-${normalizeVersionForPlatform(version, "rpm")}-1.x86_64.rpm`,
-      `dyad-${normalizeVersionForPlatform(version, "nupkg")}-full.nupkg`,
-      `dyad-${version}.Setup.exe`,
-      `dyad-darwin-arm64-${version}.zip`,
-      `dyad-darwin-x64-${version}.zip`,
-      `dyad_${normalizeVersionForPlatform(version, "deb")}_amd64.deb`,
-      `dyad_${version}_x86_64.AppImage`,
+      `soloLVLdev-${normalizeVersionForPlatform(version, "rpm")}-1.x86_64.rpm`,
+      `soloLVLdev-${normalizeVersionForPlatform(version, "nupkg")}-full.nupkg`,
+      `soloLVLdev-${version}.Setup.exe`,
+      `soloLVLdev-darwin-arm64-${version}.zip`,
+      `soloLVLdev-darwin-x64-${version}.zip`,
+      `soloLVLdev_${normalizeVersionForPlatform(version, "deb")}_amd64.deb`,
+      `soloLVLdev_${version}_x86_64.AppImage`,
       "RELEASES",
     ];
 

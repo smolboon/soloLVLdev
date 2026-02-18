@@ -52,7 +52,7 @@ export const TitleBar = () => {
   const { lastDeepLink, clearLastDeepLink } = useDeepLink();
   useEffect(() => {
     const handleDeepLink = async () => {
-      if (lastDeepLink?.type === "dyad-pro-return") {
+      if (lastDeepLink?.type === "soloLVLdev-pro-return") {
         await refreshSettings();
         showDyadProSuccessDialog();
         clearLastDeepLink();
@@ -268,7 +268,7 @@ export function DyadProButton({
   const { userBudget } = useUserBudgetInfo();
   return (
     <Button
-      data-testid="title-bar-dyad-pro-button"
+      data-testid="title-bar-soloLVLdev-pro-button"
       onClick={() => {
         navigate({
           to: providerSettingsRoute.id,
