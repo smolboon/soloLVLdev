@@ -99,7 +99,7 @@ npm run e2e e2e-tests/context_manage.spec.ts -- --update-snapshots
 
 ## Code reviews
 
-Dyad relies on several AI code reviewers to catch issues. If a comment is irrelevant please leave a brief comment and mark the comment as resolved.
+SoloLVLdev relies on several AI code reviewers to catch issues. If a comment is irrelevant please leave a brief comment and mark the comment as resolved.
 
 You can also do local code reviews with the following tools:
 

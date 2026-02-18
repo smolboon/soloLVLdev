@@ -72,7 +72,7 @@ function sanitizeKeywords(keywords: string): string {
 }
 
 // Directory for storing temporary theme images
-const THEME_IMAGES_TEMP_DIR = path.join(os.tmpdir(), "dyad-theme-images");
+const THEME_IMAGES_TEMP_DIR = path.join(os.tmpdir(), "soloLVLdev-theme-images");
 
 // Ensure temp directory exists
 if (!fs.existsSync(THEME_IMAGES_TEMP_DIR)) {
